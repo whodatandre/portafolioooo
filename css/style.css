@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #394CBE;
+}
+#inicio{background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #1E1E1E;
+	padding: 20% 0;
+	text-align: center;}
+
+#for{background-image: url(../img/bg2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #1E1E1E;
+	padding: 20% 0;
+	text-align: center;}
+#facts{
+	background-color: #fafafa;
+	text-align: center;
+}
+#facts h4{
+	font-size: 20px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 20px;}
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 15px 0px #ddd;
+	font-size: 40px;
+	color: #2E73E8;
+}
+.circulo:hover{
+	box-shadow: 0px 0px 5px 0px #ddd;}
+.btn-oshine{
+	background: linear-gradient(to right,#7c3fdb, #3370e7);
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 15px 30px;
+	border: 0;
+	letter-spacing: 1px;
+}
+.btn-oshine:hover{
+	background: linear-gradient(to right,#3370e7, #3370e7);
+	transition: all 0.3s linear;
+}
+.section{
+	padding: 60px 0;
+}
+
+
+
+
+.titulo{
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: #000;}
+.subtitulo{
+	font-size: 18px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 40px;}
+.work{
+	position: relative;
+}
+.work-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #fff;
+	opacity: 0;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+.work:hover .work-bg{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+.work-info h4{
+	color: #000;
+	transform: translateY(20px);
+	transition: all 0.5s ease-in-out;
+}
+.work-info p{
+	font-size: 12px;
+	transform: translateY(-20px);
+	transition: all 0.5s ease-in-out;
+}
+.work:hover .work-info h4{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+.work:hover .work-info p{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+.work-frame{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	padding: 10px;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.work-frame-info{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+.work:hover .work-frame{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+	
+#footer{
+	background-color: #1B1A1A;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+	
+}
+#footer h4 {
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-top: 30px;}
+#testimonal{
+	background-image: url(../img/kanye.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	color: #fff;
+}
+
+.testimonio i{
+	font-size: 22px;
+	margin-bottom: 35px;
+}
+.testimonio p{
+	font-size: 20px;
+	width: 70%;
+	margin: 0px auto 40px;
+}
+.testimonio img{
+	width: auto;
+  max-width: 350px;
+  height: auto;
+  max-height:350px;
+	
+}
+.testimonio h4{
+	font-size: 16px;
+}
+
+#testimonal .carousel-item{
+	height: 400px;
+}
+
+#slides .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+#hero{
+	background-image: url(../img/bg22.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	padding: 10% 0;
+	color: #fff;
+}
+#hero h1 {
+	font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	 
+
+}
+#hero h4 {
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+#hero p{
+	color: #fff;
+	font-size: 26px;
+	font-weight: 300;
+	margin-top: 30px;}
+#modern{background-image: url("../img/restaurant_post_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5% 0;}
+#modern h1 {
+	font-size: 100px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	 
+
+}
+#modern h4 {
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-top: 30px;
+}
+#modern p{
+	color: #202020;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 30px;}

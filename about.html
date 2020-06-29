@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andre Sosa</title>
+<link href="img/favicon.ico" rel="icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+    
+	<header class="header-area">
+		<div class="container">
+			
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  
+				<a class="navbar-brand" href="index.html">Andre Sosa</a>
+				
+				
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="about.html">Epic Bio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="https://www.youtube.com/watch?v=FTQbiNvZqaY" target="_blank">Stress Relief Button</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Stress Button</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Real Stuff
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="services.html">Photos</a>
+					  <a class="dropdown-item" href="https://www.fogcam.org/" target="_blank">Inspiration</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Call me :(</a>
+					</div>
+				  </li>
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
+	</header>
+    
+    
+	<section id="hero">
+		<div class="container">
+			<h4>Welcome to my Palace</h4>
+			<h1>My Bio</h1>
+			
+			<p>As you already known, I have a terrible sense of humor and a complex of superiotity, so enjoy my bio.</p>
+				
+		</div>	
+		
+	</section>
+	<section id="modern">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-12 col-xs-12">
+					<img src="img/predator.jpg" class="img-fluid">
+				</article>
+				<article class="col-md-6 col-sm-12 col-xs-12">
+					<h4>Les Begin with my epic</h4>
+					<h1>Bio</h1>
+					<h4>Yes, Please don't fail me :(</h4>
+					<p>Diana, Princess of Wales (born Diana Frances Spencer; 1 July 1961 – 31 August 1997) was a member of the British royal family. She was the first wife of Charles, Prince of Wales, the heir apparent to the British throne, and the mother of Prince William and Prince Harry. Diana's activism and glamour made her an international icon and earned her an enduring popularity as well as an unprecedented public scrutiny, exacerbated by her tumultuous private life.
+
+					Diana was born into the British nobility and grew up close to the royal family on their Sandringham estate. The youngest daughter of John Spencer, 8th Earl Spencer, and Frances Shand Kydd, she was strongly affected by their divorce in 1967. She did not distinguish herself academically, but was talented in music, dance, and sports. In 1978, she moved to London, where she lived with flatmates and took on various low-paying jobs.</p>
+					</article>
+				
+		 
+                   
+			</div>
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-dark btn-oshine">Home</a>
+		</div>
+	</section>
+	
+	<footer> 
+		<section id="footer">
+	<div class="container">
+            <p>Auida :(</p>
+			<h4>Andre Gustavo Sosa Vega</h4>
+        </div>
+			</section>
+    </footer>
+	
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+    <script>
+		$(function() {
+			$(window).on('scroll', function () {
+				if ($(window).scrollTop() > 48) {
+					$('.header-area').addClass('sticky slideInDown');
+				} else {
+					$('.header-area').removeClass('sticky slideInDown');
+				}
+			});
+			
+			$('#navbar').onePageNav({
+				currentClass: 'active',
+				scrollSpeed: 1000,
+				easing: 'easeOutQuad'
+        	});
+			
+			
+			
+		});
+	</script>
+</body>
+
+</html>
